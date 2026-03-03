@@ -73,7 +73,6 @@ difference.
 
 ## 📁 Project Structure
 mimo_3d_beamforming/\
-\
 ├── config.py               \
 ├── array_geometry.py       \
 ├── signal_simulator.py     \
@@ -96,6 +95,13 @@ Install required libraries:
 Run the simulation:
 
           python main.py
+
+------------------------------------------------------------------------
+## 📊 Output (Comparison Visualization)
+
+Here’s a high-resolution sample output from the system:
+
+<img width="1444" height="700" alt="Figure_1" src="https://github.com/user-attachments/assets/715865cc-31c4-4ac6-a58d-755d67330223" />
 
 ------------------------------------------------------------------------
 
