@@ -48,31 +48,31 @@ difference.
 
 ## 🧠 Algorithms Implemented
 
--   Sample Covariance Matrix Estimation\
--   Eigenvalue Decomposition\
--   Signal and Noise Subspace Separation\
--   Noise Subspace Projection (MUSIC)\
--   2D Grid-Based Spatial Spectrum Scanning\
--   Bartlett (Conventional) Beamforming\
--   Peak Detection for DOA Estimation\
+-   Sample Covariance Matrix Estimation
+-   Eigenvalue Decomposition
+-   Signal and Noise Subspace Separation
+-   Noise Subspace Projection (MUSIC)
+-   2D Grid-Based Spatial Spectrum Scanning
+-   Bartlett (Conventional) Beamforming
+-   Peak Detection for DOA Estimation
 
 ------------------------------------------------------------------------
 
 ## ⚙️ System Configuration
 
--   Carrier Frequency: 77 GHz\
--   Array Type: 4×4 Planar Rectangular Array\
--   Element Spacing: λ/2\
--   Number of Targets: 2\
--   SNR: 20 dB\
--   Scan Grid:\
-    -   Azimuth: -90° to 90°\
+-   Carrier Frequency: 77 GHz
+-   Array Type: 4×4 Planar Rectangular Array
+-   Element Spacing: λ/2
+-   Number of Targets: 2
+-   SNR: 20 dB
+-   Scan Grid:
+    -   Azimuth: -90° to 90°
     -   Elevation: -30° to 30°
 
 ------------------------------------------------------------------------
 
 ## 📁 Project Structure
-mimo_3d_beamforming/
+mimo_3d_beamforming\
 │
 ├── config.py               # System & simulation parameters\
 ├── array_geometry.py       # Planar array coordinate generation\
@@ -101,9 +101,9 @@ Run the simulation:
 
 ## 📌 Applications
 
--   Automotive Radar Signal Processing\
--   3D Direction of Arrival Estimation\
--   Array Signal Processing Research\
+-   Automotive Radar Signal Processing
+-   3D Direction of Arrival Estimation
+-   Array Signal Processing Research
 -   Subspace-Based Super-Resolution Methods
 
 ------------------------------------------------------------------------
