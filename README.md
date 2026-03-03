@@ -73,7 +73,7 @@ difference.
 
 ## 📁 Project Structure
 mimo_3d_beamforming/\
-│\
+\
 ├── config.py               \
 ├── array_geometry.py       \
 ├── signal_simulator.py     \
