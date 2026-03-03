@@ -48,25 +48,25 @@ difference.
 
 ## 🧠 Algorithms Implemented
 
--   Sample Covariance Matrix Estimation
--   Eigenvalue Decomposition
--   Signal and Noise Subspace Separation
--   Noise Subspace Projection (MUSIC)
--   2D Grid-Based Spatial Spectrum Scanning
--   Bartlett (Conventional) Beamforming
--   Peak Detection for DOA Estimation
+-   Sample Covariance Matrix Estimation\
+-   Eigenvalue Decomposition\
+-   Signal and Noise Subspace Separation\
+-   Noise Subspace Projection (MUSIC)\
+-   2D Grid-Based Spatial Spectrum Scanning\
+-   Bartlett (Conventional) Beamforming\
+-   Peak Detection for DOA Estimation\
 
 ------------------------------------------------------------------------
 
 ## ⚙️ System Configuration
 
--   Carrier Frequency: 77 GHz
--   Array Type: 4×4 Planar Rectangular Array
--   Element Spacing: λ/2
--   Number of Targets: 2
--   SNR: 20 dB
--   Scan Grid:
-    -   Azimuth: -90° to 90°
+-   Carrier Frequency: 77 GHz\
+-   Array Type: 4×4 Planar Rectangular Array\
+-   Element Spacing: λ/2\
+-   Number of Targets: 2\
+-   SNR: 20 dB\
+-   Scan Grid:\
+    -   Azimuth: -90° to 90°\
     -   Elevation: -30° to 30°
 
 ------------------------------------------------------------------------
@@ -74,16 +74,15 @@ difference.
 ## 📁 Project Structure
 mimo_3d_beamforming/
 │
-├── config.py               # System & simulation parameters
-├── array_geometry.py       # Planar array coordinate generation
-├── signal_simulator.py     # Target signal modeling & steering vectors
-├── covariance.py           # Sample covariance matrix computation
-├── music_2d.py             # 2D MUSIC spectrum implementation
-├── beamformer.py           # Classical Bartlett beamformer
-├── peak_detection.py       # DOA peak extraction
-├── visualization.py        # 3D & analytical plotting utilities
-├── main.py                 # Pipeline execution entry point
-│
+├── config.py               # System & simulation parameters\
+├── array_geometry.py       # Planar array coordinate generation\
+├── signal_simulator.py     # Target signal modeling & steering vectors\
+├── covariance.py           # Sample covariance matrix computation\
+├── music_2d.py             # 2D MUSIC spectrum implementation\
+├── beamformer.py           # Classical Bartlett beamformer\
+├── peak_detection.py       # DOA peak extraction\
+├── visualization.py        # 3D & analytical plotting utilities\
+├── main.py                 # Pipeline execution entry point\
 └── README.md
 
 ------------------------------------------------------------------------
