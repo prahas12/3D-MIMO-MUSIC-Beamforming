@@ -73,16 +73,16 @@ difference.
 
 ## 📁 Project Structure
 mimo_3d_beamforming\
-│
-├── config.py               # System & simulation parameters\
-├── array_geometry.py       # Planar array coordinate generation\
-├── signal_simulator.py     # Target signal modeling & steering vectors\
-├── covariance.py           # Sample covariance matrix computation\
-├── music_2d.py             # 2D MUSIC spectrum implementation\
-├── beamformer.py           # Classical Bartlett beamformer\
-├── peak_detection.py       # DOA peak extraction\
-├── visualization.py        # 3D & analytical plotting utilities\
-├── main.py                 # Pipeline execution entry point\
+│\
+├── config.py               \
+├── array_geometry.py       \
+├── signal_simulator.py     \
+├── covariance.py           \
+├── music_2d.py             \
+├── beamformer.py           \
+├── peak_detection.py       \
+├── visualization.py        \
+├── main.py                 \
 └── README.md
 
 ------------------------------------------------------------------------
