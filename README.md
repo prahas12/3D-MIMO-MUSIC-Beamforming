@@ -92,13 +92,13 @@ mimo_3d_beamforming/
 ##  How to Run
 
 Install required libraries:
-
- pip install numpy matplotlib
-
+```text
+pip install numpy matplotlib
+```
 Run the simulation:
-
- python main.py
-
+```text
+python main.py
+```
 ------------------------------------------------------------------------
 ##  Output (Comparison Visualization)
 
