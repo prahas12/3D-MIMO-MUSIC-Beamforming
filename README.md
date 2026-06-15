@@ -75,15 +75,19 @@ difference.
 
 ```text
 mimo_3d_beamforming/
-├── config.py               
-├── array_geometry.py       
-├── signal_simulator.py     
-├── covariance.py           
-├── music_2d.py             
-├── beamformer.py           
-├── peak_detection.py       
-├── visualization.py        
-├── main.py                 
+├── src/
+│   ├── array_geometry.py
+│   ├── signal_simulator.py
+│   ├── covariance.py
+│   ├── music_2d.py
+│   ├── beamformer.py
+│   ├── peak_detection.py
+│   ├── visualization.py
+│   └── main.py
+│
+├── config/
+│   └── config.py
+│
 └── README.md
 ```
 
