@@ -74,7 +74,7 @@ difference.
 ##  Project Structure
 
 ```text
-mimo_3d_beamforming/\
+mimo_3d_beamforming/
 ├── config.py               
 ├── array_geometry.py       
 ├── signal_simulator.py     
@@ -93,11 +93,11 @@ mimo_3d_beamforming/\
 
 Install required libraries:
 
-          pip install numpy matplotlib
+pip install numpy matplotlib
 
 Run the simulation:
 
-          python main.py
+python main.py
 
 ------------------------------------------------------------------------
 ##  Output (Comparison Visualization)
