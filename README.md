@@ -1,6 +1,6 @@
 # 3D MIMO Beamforming using MUSIC Algorithm
 
-## 📡 Project Overview
+##  Project Overview
 
 This project implements a complete 3D Direction of Arrival (DOA)
 estimation pipeline using a planar MIMO antenna array.
@@ -15,7 +15,7 @@ radar signal processing architecture.
 
 ------------------------------------------------------------------------
 
-## 🔬 Features
+##  Features
 
 -   Planar 4×4 MIMO array simulation
 -   Narrowband signal modeling for multiple targets
@@ -32,7 +32,7 @@ radar signal processing architecture.
 
 ------------------------------------------------------------------------
 
-## 🎯 Key Insight
+##  Key Insight
 
 Classical beamforming produces wider lobes and limited angular
 resolution.
@@ -46,7 +46,7 @@ difference.
 
 ------------------------------------------------------------------------
 
-## 🧠 Algorithms Implemented
+##  Algorithms Implemented
 
 -   Sample Covariance Matrix Estimation
 -   Eigenvalue Decomposition
@@ -58,7 +58,7 @@ difference.
 
 ------------------------------------------------------------------------
 
-## ⚙️ System Configuration
+##  System Configuration
 
 -   Carrier Frequency: 77 GHz
 -   Array Type: 4×4 Planar Rectangular Array
@@ -71,22 +71,25 @@ difference.
 
 ------------------------------------------------------------------------
 
-## 📁 Project Structure
+##  Project Structure
+
+```text
 mimo_3d_beamforming/\
-├── config.py               \
-├── array_geometry.py       \
-├── signal_simulator.py     \
-├── covariance.py           \
-├── music_2d.py             \
-├── beamformer.py           \
-├── peak_detection.py       \
-├── visualization.py        \
-├── main.py                 \
+├── config.py               
+├── array_geometry.py       
+├── signal_simulator.py     
+├── covariance.py           
+├── music_2d.py             
+├── beamformer.py           
+├── peak_detection.py       
+├── visualization.py        
+├── main.py                 
 └── README.md
+```
 
 ------------------------------------------------------------------------
 
-## ▶️ How to Run
+##  How to Run
 
 Install required libraries:
 
@@ -97,7 +100,7 @@ Run the simulation:
           python main.py
 
 ------------------------------------------------------------------------
-## 📊 Output (Comparison Visualization)
+##  Output (Comparison Visualization)
 
 Here’s a high-resolution sample output from the system:
 
@@ -105,7 +108,7 @@ Here’s a high-resolution sample output from the system:
 
 ------------------------------------------------------------------------
 
-## 📌 Applications
+##  Applications
 
 -   Automotive Radar Signal Processing
 -   3D Direction of Arrival Estimation
@@ -114,7 +117,6 @@ Here’s a high-resolution sample output from the system:
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Author
+##  Author
 
-Developed as part of advanced exploration in array signal processing and
-high-resolution DOA estimation.
+Prahas
